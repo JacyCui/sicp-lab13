@@ -120,6 +120,9 @@ sqlite> SELECT category, ROUND(average_price) FROM average_prices;
 computer|109.0
 games|350.0
 phone|90.0
+```
+
+```sql
 CREATE TABLE average_prices AS
   SELECT "REPLACE THIS LINE WITH YOUR SOLUTION";
 ```
@@ -148,6 +151,9 @@ Hallmart|qPhone|85.99
 Hallmart|rPhone|69.99
 RestBuy|uPhone|89.99
 RestBuy|wBook|114.29
+```
+
+```sql
 CREATE TABLE lowest_prices AS
   SELECT "REPLACE THIS LINE WITH YOUR SOLUTION";
 ```
@@ -175,6 +181,9 @@ sqlite> SELECT * FROM shopping_list;
 GameStation|Hallmart
 uPhone|RestBuy
 wBook|RestBuy
+```
+
+```sql
 CREATE TABLE shopping_list AS
   SELECT "REPLACE THIS LINE WITH YOUR SOLUTION";
 ```
